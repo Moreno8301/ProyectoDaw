@@ -7,12 +7,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 body {
+  background-image: linear-gradient(to top, #ffcacc 0%, #ffe2f6 99%, #fecfef 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 .main {
   padding: 2rem;
   margin-bottom: 50px;
+}
+
+.header {
+  background-image: linear-gradient(to top, #ffcacc 0%, #ffe2f6 99%, #fecfef 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+
+.header__links {
+  background-image: linear-gradient(to top, #ffcacc 0%, #ffe2f6 99%, #fecfef 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .section__img {

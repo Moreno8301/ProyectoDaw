@@ -11,6 +11,7 @@ body {
 }
 
 .main {
+  padding: 2rem;
   margin-bottom: 50px;
 }
 
@@ -56,6 +57,8 @@ body {
 }
 
 .slider__container {
+  text-align: center;
+  margin: 20px 0;
   padding: 2rem;
 }
 
@@ -111,8 +114,51 @@ body {
 }
 
 .slider__title {
+  margin-bottom: 40px;
+}
 
-} 
+.wedding__container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.wedding__packages {
+  margin: 40px auto;
+  display: flex;
+  gap: 4rem;
+}
+
+.wedding__subtitle {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.wedding__price {
+  font-size: 2.5rem;
+  color: #FF5353;
+  font-weight: 600;
+}
+
+.wedding__plan {
+  border-radius: 20px;
+  box-shadow: 2px 2px .9px black;
+  border: 1px solid black;
+  padding: 1.5rem;
+}
+
+.wedding__cta {
+  background-color: #FF5353;
+  color: wheat;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 20px auto;
+  border-radius: 30px;
+  display: block;
+  padding: 10px 20px;
+  /* border: 1px solid black; */
+}
+
 
 @media (min-width: 1032px) {
   .footer__picture {
@@ -120,9 +166,20 @@ body {
   }
 }
 
+@media (max-width: 975px){
+  .wedding__packages {
+    flex-direction: column;
+  }
+}
+
+
 @media (max-width: 768px) {
 
   body {
+    padding: 0;
+  }
+
+  .main {
     padding: 0;
   }
   
@@ -136,12 +193,17 @@ body {
     flex-direction: column;
   }
 
+  .main__section {
+    margin-bottom: 100px;
+  }
+
   .main__section__title {
     font-size: 40px;
   }
 
   .main__section__subtitle, 
-  .slider__title {
+  .slider__title,
+  .wedding__title {
     font-size: 25px;
     margin-bottom: 10px;
   }
@@ -171,14 +233,26 @@ body {
   body {
     padding: 0;
   }
+  
+  .main {
+    padding: 0;
+  }
+
+  .main__section__title {
+    font-size: 36px;
+  }
+
+  .main__section__subtitle {
+    font-size: 20px;
+  }
 
   .section__img {
     border-radius: 9999px;
-    width: 80%;
+    width: 100%;
   }
 
   .main__section__picture {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .footer {

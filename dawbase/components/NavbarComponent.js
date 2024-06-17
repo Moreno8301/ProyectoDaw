@@ -15,7 +15,7 @@ class NavbarComponent extends HTMLElement {
           class="nav-links duration-500 md:static absolute  text-black md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 bg-white z-10"
         >
           <ul
-            class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
+            class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-2"
           >
             <li>
               <a class="hover:text-gray-500" href="/index.html">Inicio</a>

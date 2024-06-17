@@ -5,25 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="css/output.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    
+
     <script src="components/NavbarComponent.js"></script>
   </head>
-  <body class="font-[Fredoka] bg-white h-screen">
+  <body class="font-[Fredoka] h-screen">
     <header class="bg-white">
       <navbar-component></navbar-component>
     </header>
-    <main class="flex flex-col w-[92%] mx-auto my-14">
+    <main class="flex flex-col w-[92%] mx-auto my-14 main">
       <article
-        class="w-full h-fit flex items-center py-8 px-[70px] md:px-[70px]"
+        class="w-full h-fit flex items-center py-8 px-[70px] md:px-[70px] main__article"
       >
-        <section class="w-[50%] px-8 h-[400px]">
-          <h1 class="font-bold text-[50px] text-[#FF5353]">
-            Let's Plan for Your Dream
+        <section class="w-[50%] px-8 h-[400px] main__section">
+          <h1 class="font-bold text-[50px] text-[#FF5353] main__section__title">
+            Planificamos tus sueños
           </h1>
-          <h2 class="font-semibold text-[40px]">Wedding</h2>
+          <h2 class="font-semibold text-[40px] main__section__subtitle">Bodas, eventos y más</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
             distinctio veritatis excepturi minus mollitia similique iusto
@@ -35,7 +34,7 @@
             >Get Started</a
           >
         </section>
-        <section class="w-[50%] h-[400px] relative">
+        <section class="w-[50%] h-[400px] relative main__section__picture">
           <img
             src="/images/main.jpg"
             class="block w-[50%] rounded-full absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] section__img"
@@ -43,7 +42,33 @@
           />
         </section>
       </article>
+      <article class="slider__container">
+        <h2 class="font-semibold text-[40px] slider__title">Nuestros servicios</h2>
+        <div class="slider__wrapper">
+          <div class="slider">
+            <img id="slide-1" src="/images/slide1.jpg" alt="Slider 1">
+            <img id="slide-2" src="/images/slide2.jpg" alt="Slider 2">
+            <img id="slide-3" src="/images/slide3.jpg" alt="Slider 3">
+          </div>
+          <div class="slider__nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
+      </article>
     </main>
+
+    <footer class="footer">
+      <div class="footer__picture">
+        <img src="/images/ues.png" class="footer__image" />
+        <p class="footer__class">Desarrollo de Aplicaciones Web</p>
+      </div>
+      <div class="footer__links">
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </div>
+    </footer>
     <script src="js/menu.js"></script>
   </body>
 </html>

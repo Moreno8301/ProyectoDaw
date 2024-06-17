@@ -28,42 +28,43 @@
     <script src="/components/NavbarComponent.js"></script>
     <script src="js/mail.js"></script>
   </head>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/666e96169a809f19fb3e5743/1i0fvkhsn';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+  
   <body class="font-[Fredoka] bg-white h-screen">
 
     <header class="bg-white">
         <navbar-component></navbar-component>
     </header>
-
-    <h2>Contactanos en nuestras redes sociales</h2>
-
-    <table>
-      <tr>
-        <td>
-          <a href="https://www.facebook.com/UESoficial.SV">
-            <button class="btn fb" type="button">
-              <img src="/images/fb.png" height="80" width="80" />
-            </button>
-          </a>
-        </td>
-        <td>
-          <a href="https://twitter.com/UESoficial">
-            <button class="btn twtt" type="button">
-              <img src="/images/twitter_x.png" height="80" width="80" />
-            </button>
-          </a>
-        </td>
-        <td>
-          <a href="https://wa.me/78423999">
-            <button class="btn whtpp" type="button">
-              <img src="/images/whatsapp.png" height="80" width="80" />
-            </button>
-          </a>
-        </td>
-      </tr>
-    </table>
+    <div style="position:absolute; left: 58%; bottom: 0%;">
+      <p>Contactanos mediante nuestras redes sociales</p>
+    </div>
+    <div class="absolute bottom-0 left-0" style="position:absolute; left: 80%; bottom: 0%;">
+        <a href="https://www.facebook.com/UESoficial.SV">
+            <button class="btn fb" type="button"> <img src="/images/fb.png" height ="50" width="50" /></button>
+        </a>
+        <a href="https://twitter.com/UESoficial">
+            <button class="btn twtt" type="button"> <img src="/images/twitter_x.png" height ="50" width="50" /></button>
+        </a>
+        <a href="https://wa.me/78423999">
+            <button class="btn whtpp" type="button"> <img src="/images/whatsapp.png" height ="50" width="50" /></button>
+        </a>
+        </div>
 
     <div>
-      <p>Contactanos por Correo</p>
+      <pre>
+       <p>Contactanos por Correo</p>
       <input
         type="text"
         id="fullName"
@@ -77,29 +78,24 @@
         required
       /><br />
       <textarea id="mensaje" placeholder="Mensaje" required></textarea>
-    </div>
-    <button class="btn enviar" type="submit" onclick="enviarcorreo()">
-      Enviar
-    </button>
-    <div>
-      CC22070 - cc22070@ues.edu.sv, CV22022 -CV22022@ues.edu.sv, GL12016
-      -GL12016@ues.edu.sv, MM03168 -MM03168@ues.edu.sv, MV22023
+      </div>
+      <button class="btn enviar" type="submit" onclick="enviarcorreo()">
+        Enviar
+      </button>  
+      </pre>
+     
+    <details class="bg-gray-300 open:bg-amber-200 duration-300">
+            <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Integrantes</summary>
+            <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
+                CC22070 - cc22070@ues.edu.sv,<br> CV22022 -CV22022@ues.edu.sv,<br> GL12016
+      -GL12016@ues.edu.sv,<br> MM03168 -MM03168@ues.edu.sv,<br> MV22023
       -MV22023@ues.edu.sv
+            </div>
+        </details>
+
+    <div>
+      
     </div>
 
-    <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = "https://embed.tawk.to/665e2c07981b6c5647781f40/1hvftnvck";
-        s1.charset = "UTF-8";
-        s1.setAttribute("crossorigin", "*");
-        s0.parentNode.insertBefore(s1, s0);
-      })();
-    </script>
-    <script src="/js/menu.js"></script>
   </body>
 </html>

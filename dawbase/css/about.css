@@ -9,3 +9,11 @@
   font-size: 2rem;
   font-weight: 600;
 }
+
+@media (max-width: 768px){
+    .main {
+        padding: 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

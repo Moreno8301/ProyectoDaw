@@ -36,9 +36,9 @@ class NavbarComponent extends HTMLElement {
         </div>
         <div class="flex items-center gap-6">
           <button
-            class="bg-[#FF5353] text-white px-5 py-2 rounded-full hover:bg-[#87acec]"
+            class="bg-[#FF5353] text-white px-5 py-2 rounded-full hover:bg-[#ff9d9d]"
           >
-            Sign in
+            Contacto
           </button>
           <ion-icon
             onclick="onToggleMenu(this)"

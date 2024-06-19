@@ -10,8 +10,8 @@ class FooterComponent extends HTMLElement {
         <p class="footer__class">Desarrollo de Aplicaciones Web</p>
       </div>
       <div class="footer__links">
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a href="/pages/about.html">Sobre Nosotros</a>
+        <a href="/pages/contacto.html">Contacto</a>
       </div>
     </footer>`;
   }

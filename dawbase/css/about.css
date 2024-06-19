@@ -1,0 +1,11 @@
+.main {
+  padding: 2rem;
+  margin-bottom: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main__section__title {
+  font-size: 2rem;
+  font-weight: 600;
+}

@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="css/output.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/images/heart.svg" type="image/x-icon">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="/components/FooterComponent.js"></script>
     <script src="/components/NavbarComponent.js"></script>
   </head>
-  <body class="font-[Fredoka] h-screen">
+  <body class="font-[Fredoka] h-screen relative">
     <header class="header">
       <navbar-component></navbar-component>
     </header>
@@ -106,7 +107,16 @@
       </article>
     </main>
 
-    <footer-component></footer-component>
+    <footer class="footer">
+      <div class="footer__picture">
+        <img src="/images/ues.png" class="footer__image" />
+        <p class="footer__class">Desarrollo de Aplicaciones Web</p>
+      </div>
+      <div class="footer__links">
+        <a href="/pages/about.html">Sobre Nosotros</a>
+        <a href="/pages/contacto.html">Contacto</a>
+      </div>
+    </footer>
     <script src="js/menu.js"></script>
   </body>
 </html>
